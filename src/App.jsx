@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter, Link } from "react-router-dom";
+import { Route, Routes, BrowserRouter} from "react-router-dom";
 import React from 'react'
 import './App.css'
 import { Navbar } from './Navbar'
@@ -7,6 +7,8 @@ import { About } from "./pages/About";
 import {Login} from "./pages/Login";
 import {Sounds} from "./pages/Sounds";
 import { Register } from "./pages/Register";
+
+
 
 
 export function App() {
@@ -27,6 +29,8 @@ export function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
         </Routes>
+
+       
     </div>
     </BrowserRouter>
   )

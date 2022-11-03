@@ -1,7 +1,30 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  display:flexbox; 
+  width: 100%;
+  padding: 3px;
   text-align: center;
+  align-items: center;
+  
+}
+
+input {
+  text-align: center;
+  display: block;
+  color: #00a9ff;
+  font-family: 'Dosis', sans-serif;
+  width: 25%;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid trasparent;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  margin-top: 2%;
+  align-items: center;
+  margin-left: 35%;
+  
+}
+input::placeholder {
+  color: #0784c2;
+  opacity: 0.8;
   
 }
