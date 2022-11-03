@@ -39,7 +39,7 @@ export function Register() {
       <input
         type={"email"}
         name="email"
-        placeholder="email"
+        placeholder="Email"
         onChange={({ target }) => setEmail(target.value)}
       />
       <input

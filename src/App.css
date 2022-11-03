@@ -1,37 +1,57 @@
+
 #root {
   display:flexbox; 
   width: 100%;
   padding: 3px;
   text-align: center;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 input {
   text-align: center;
   display: block;
-  color: #00a9ff;
+  color: #141414;
   font-family: 'Dosis', sans-serif;
-  width: 25%;
+  font-size: 15px; 
   padding: 0.5rem 1rem;
   background-color: transparent;
   border: 1px solid trasparent;
   margin-bottom: 1rem;
   border-radius: 0.25rem;
-  margin-top: 2%;
+  margin-top: 1%;
   align-items: center;
-  margin-left: 35%;
+  margin-left: 15%;
   
 }
 input::placeholder {
-  color: #0784c2;
-  opacity: 0.8;
+  color: rgb(17, 16, 16);
   
+  letter-spacing: 3px;  
+  font-weight: 600;
 }
 
 .NavbarStyle{
   display:inline-flexbox;
-flex-direction: row;
-  
-  
+flex-direction: row;  
+letter-spacing: 5px;
   }
+
+  .VideoStyle{
+  width: 100%;
+height: 100vh; 
+  }
+
+  video{
+    width:100% ;
+    height: 100%;
+    object-fit: cover;    
+  }
+  .AboutStyle{
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+   width: 40%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    
+    }
