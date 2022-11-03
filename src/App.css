@@ -28,3 +28,10 @@ input::placeholder {
   opacity: 0.8;
   
 }
+
+.NavbarStyle{
+  display:inline-flexbox;
+flex-direction: row;
+  
+  
+  }
