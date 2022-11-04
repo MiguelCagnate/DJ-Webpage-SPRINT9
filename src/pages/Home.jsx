@@ -1,16 +1,6 @@
-import React from 'react';
-// import { Slide } from '../components/Slide';
-// import Video from '../components/Video';
+import React from "react";
+import Video from "../components/Video";
 
-
-export const Home = () =>{
-  return (
-    <div>
-        
-      <div className="SlideStyle">
-{/* <Video /> */}
-</div>
-      
-    </div>
-  );
-}
+export const Home = () => {
+  return <Video />;
+};

@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { UserContext } from "../user-context";
 
 export function Login() {
+  const { setUser } = useContext(UserContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -16,12 +18,17 @@ export function Login() {
 
     if (users.length === 0) return alert("There is not user");
 
-    const user = users.find(
+    const newUser = users.find(
       (savedUser) =>
         savedUser.password === password && savedUser.email === email
     );
 
-    alert(user ? `Hi, ${user.name}` : "Not user found");
+    alert(newUser ? `Hi, ${newUser.name}` : "Not user found");
+
+    // Save logged user
+    localStorage.setItem("user", JSON.stringify(newUser));
+
+    setUser(newUser);
   }
 
   return (
