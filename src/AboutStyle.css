@@ -1,0 +1,15 @@
+.AboutStyle {
+    display: flex;
+    color: #413939;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "Dosis", sans-serif;
+    width: 75%;
+    text-align: center;
+    margin: 1px 5px 7px;
+    padding: 13px;
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.8;
+    background-image: url("../src/assets/images/pool.jpg");
+  }

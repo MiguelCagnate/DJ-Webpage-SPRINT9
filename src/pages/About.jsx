@@ -1,5 +1,6 @@
 import React from "react";
 import Profilepic from "../assets/images/slide_2.png";
+import "../../src/AboutStyle.css"
 
 export const About = () => {
   return (

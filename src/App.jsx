@@ -1,6 +1,8 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import "../src/SocialMedia.css"
+import "../src/ButtonStyle.css"
 import { Navbar } from "./Navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
@@ -25,6 +27,7 @@ export function App() {
         <UserContext.Provider value={{ user, setUser }}>
           <Navbar />
           <div>
+
             <h1 className="TitleStyle"> MILO BEMBÉ</h1>
             <h2 className="SloganStyle">FEEL THE GROOVE🌴</h2>
           </div>
@@ -38,6 +41,10 @@ export function App() {
             <Route path="/Register" element={<Register />} />
           </Routes>
         </UserContext.Provider>
+        <footer className="FooterStyle">
+        <SocialMedia/>
+        </footer>
+        
       </BrowserRouter>
     </div>
   );

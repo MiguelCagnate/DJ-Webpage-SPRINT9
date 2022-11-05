@@ -1,7 +1,8 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 import { Slide } from "../components/Slide";
-import { SocialMedia } from "../components/SocialMedia";
+
+
 
 
 export const PressKit = ({ user }) => {
@@ -11,8 +12,8 @@ export const PressKit = ({ user }) => {
 
   return (
     <div>
-      
-      <SocialMedia />
+      <Slide/>
+    
     </div>
   );
 };
