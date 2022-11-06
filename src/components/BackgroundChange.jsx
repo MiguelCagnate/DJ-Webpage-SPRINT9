@@ -7,10 +7,10 @@ const [isDetailVisible, toggleDetail] = useState(false);
 
 const changeButton = (e, text) => {
     e.preventDefault();
-    if (text === "About" && changeBackground !== 3) {
+    if (text === "About" && changeBackground !== "Home") {
       return setChangeBackground(changeBackground + 1);
     }
-    if (text === "PREVIOUS" && changeBackground !== 0) {
+    if (text === "Sounds" && changeBackground !== 0) {
       return setChangeBackground(changeBackground - 1);
     }
   };

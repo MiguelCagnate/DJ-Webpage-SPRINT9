@@ -29,11 +29,11 @@ export function App() {
         <UserContext.Provider value={{ user, setUser }}>
        
           <Navbar />
-          <div>
+        
 
 <h1 className="TitleStyle"> MILO BEMBÉ</h1>
 <h2 className="SloganStyle">FEEL THE GROOVE🌴</h2>
-</div>
+
 
           <Routes className="TitleStyle">
             <Route path="/Home" element={<Home />} />
