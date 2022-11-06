@@ -1,0 +1,19 @@
+.weather {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  column-gap: 0.5rem;
+  padding: 7px;
+  margin-right: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.weather img {
+  width: 100%;
+}
+
+.weather div {
+  display: grid;
+}

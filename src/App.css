@@ -1,5 +1,9 @@
 @import "react-slideshow-image/dist/styles.css";
 
+body {
+  --bg-image: url('/background-images/one.jpg')
+}
+
 input {
   text-align: center;
   display: block;

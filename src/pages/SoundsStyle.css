@@ -1,0 +1,10 @@
+body {
+  --bg-image: url('/background-images/two.jpg');
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem;
+}

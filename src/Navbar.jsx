@@ -3,7 +3,8 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "../src/NavbarStyle.css"
 
 import {UserContext} from './user-context'
-import "../src/NavbarStyle.css"
+
+import { Weather } from "./components/Weather";
 
 export const Navbar = () => {
   const { user } = useContext(UserContext);
@@ -13,7 +14,7 @@ export const Navbar = () => {
   return (
     <div  className="wrap" >
       <nav >
-        <div>
+          <Weather />
           <NavLink className="btn third" to="/Home">
             HOME
           </NavLink>
@@ -34,7 +35,6 @@ export const Navbar = () => {
           <button className="button" onClick={() => navigate("/Register")}>
             REGISTER
           </button>
-        </div>
       </nav>
     </div>
   );

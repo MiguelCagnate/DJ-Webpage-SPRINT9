@@ -12,3 +12,15 @@
   padding: 30px;
   width: 10%;
 }
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 575.98px) {
+  nav {
+    background-color: red;
+  }
+}

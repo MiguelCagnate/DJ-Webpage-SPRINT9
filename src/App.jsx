@@ -1,8 +1,8 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import "../src/SocialMedia.css"
-import "../src/ButtonStyle.css"
+import "../src/SocialMedia.css";
+import "../src/ButtonStyle.css";
 import { Navbar } from "./Navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
@@ -12,7 +12,6 @@ import { Register } from "./pages/Register";
 import { PressKit } from "./pages/PressKit";
 import { SocialMedia } from "./components/SocialMedia";
 
-
 import { UserContext } from "./user-context";
 
 export function App() {
@@ -20,20 +19,17 @@ export function App() {
 
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
-  }, [])
+  }, []);
 
   return (
     <div className="ContentStyle">
       <BrowserRouter>
-   
         <UserContext.Provider value={{ user, setUser }}>
-       
+
           <Navbar />
-        
 
-<h1 className="TitleStyle"> MILO BEMBÉ</h1>
-<h2 className="SloganStyle">FEEL THE GROOVE🌴</h2>
-
+          <h1 className="TitleStyle"> MILO BEMBÉ</h1>
+          <h2 className="SloganStyle">FEEL THE GROOVE🌴</h2>
 
           <Routes className="TitleStyle">
             <Route path="/Home" element={<Home />} />
@@ -45,9 +41,8 @@ export function App() {
           </Routes>
         </UserContext.Provider>
         <footer className="FooterStyle">
-        <SocialMedia/>
+          <SocialMedia />
         </footer>
-       
       </BrowserRouter>
     </div>
   );
