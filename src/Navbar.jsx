@@ -11,8 +11,8 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div >
-      <nav  className="wrap" >
+    <div  className="wrap" >
+      <nav >
         <div>
           <NavLink className="btn third" to="/Home">
             HOME

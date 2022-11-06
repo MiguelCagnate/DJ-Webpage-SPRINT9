@@ -1,6 +1,5 @@
 @import "react-slideshow-image/dist/styles.css";
 
-
 input {
   text-align: center;
   display: block;
@@ -12,9 +11,14 @@ input {
   border: 1px solid trasparent;
   margin-bottom: 1rem;
   border-radius: 0.25rem;
+  border-style: groove;
+  border-color: aliceblue;
+  border-width: 1px;
   margin-top: 1%;
   align-items: center;
   margin-left: 15%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
 }
 input::placeholder {
   color: rgb(17, 16, 16);

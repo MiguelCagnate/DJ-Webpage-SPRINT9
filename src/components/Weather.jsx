@@ -1,20 +1,24 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useState} from 'react'
 import { ApiCall } from '../ApiCall'
 
 
 
 const Weather = () => {
+
+  const [weather, setWeather] = useState(null)
+
+
 useEffect(() => {
-ApiCall()
+ApiCall(setWeather)
 },[])
 
 
 
 
   return (
-    <div>
-      <ApiCall/>
-    </div>
+    <d>
+     {weather !== null ?('Hay Weather') :(' pailas el weather')}; 
+    </d>
   )
 }
 

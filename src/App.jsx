@@ -11,6 +11,7 @@ import { Sounds } from "./pages/Sounds";
 import { Register } from "./pages/Register";
 import { PressKit } from "./pages/PressKit";
 import { SocialMedia } from "./components/SocialMedia";
+import logo from "../src/assets/images/Logo-Dj.png"
 
 import { UserContext } from "./user-context";
 
@@ -24,13 +25,11 @@ export function App() {
   return (
     <div className="ContentStyle">
       <BrowserRouter>
+      <img src={logo} alt="logo del Dj con en alto relieve" className="LogoDj" />
         <UserContext.Provider value={{ user, setUser }}>
+       
           <Navbar />
-          <div>
-
-            <h1 className="TitleStyle"> MILO BEMBÉ</h1>
-            <h2 className="SloganStyle">FEEL THE GROOVE🌴</h2>
-          </div>
+     
 
           <Routes className="TitleStyle">
             <Route path="/Home" element={<Home />} />
