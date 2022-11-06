@@ -13,27 +13,32 @@ body{
 
 .App{
   text-align: center;
+ 
 }
 .TitleStyle {
+  color: aliceblue;
   margin-top: 126px;
   margin-bottom: 2%; 
   font-size: 4vw;
   font-family: "Dosis", sans-serif;
   text-align: center;
-  font-weight: 100;
-  text-shadow: 2px 2px 4px #000000;
-  letter-spacing: 5px;
+  font-weight: 600;
+  text-shadow: 4px 4px 8px #2e2b2b;
+  letter-spacing: 3px;  
 }
 
+/* ojo */
 .SloganStyle {
+  color: aliceblue;
   font-size: 2vw;
   font-family: "Dosis", sans-serif;
   text-align: center;
   font-weight: 100; 
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 4px 4px 8px #3b3939;
 }
 
 .ContentStyle {
+  
   position:relative; 
   width: 100%;
   height: 100%;

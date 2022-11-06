@@ -1,6 +1,5 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
-import { Slide } from "../components/Slide";
 import logo from "../assets/images/Logo-Dj.png";
 
 import "./PressKitStyle.css";
@@ -19,7 +18,7 @@ export const PressKit = ({ user }) => {
           className="LogoDj"
         />
       </a>
-      <a href="mailto:milobembe@gmail.com">Escríbeme a mi correo</a>
+      <a href="mailto:gmail@gmail.com">Any question? Please keep me posted</a>
       {/* <Slide /> */}
     </div>
   );

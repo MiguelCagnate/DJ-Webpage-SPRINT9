@@ -1,13 +1,12 @@
 @import "react-slideshow-image/dist/styles.css";
 
-body {
-  --bg-image: url('/background-images/one.jpg')
+html{
+  background-color: #201f1f;
 }
-
 input {
   text-align: center;
   display: block;
-  color: #141414;
+  color: aliceblue;
   font-family: "Dosis", sans-serif;
   font-size: 15px;
   padding: 0.5rem 1rem;
@@ -16,18 +15,20 @@ input {
   margin-bottom: 1rem;
   border-radius: 0.25rem;
   border-style: groove;
-  border-color: aliceblue;
+  border-color: rgb(177, 184, 190);
   border-width: 1px;
   margin-top: 1%;
   align-items: center;
   margin-left: 15%;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  letter-spacing: 1px;
 }
 input::placeholder {
-  color: rgb(17, 16, 16);
-
+  color: aliceblue;
+  font-family: "Dosis", sans-serif;
   letter-spacing: 3px;
   font-weight: 600;
+  text-align: center;
 }
 
 .VideoStyle {
@@ -53,6 +54,7 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.6;
 }
 
 .AlertMsg {
