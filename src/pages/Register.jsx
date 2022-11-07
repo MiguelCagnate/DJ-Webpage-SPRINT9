@@ -14,17 +14,17 @@ export function Register() {
     }
 
     // new user is created
-    const user = {name,email,password,phonenumber}
+    const user = { name, email, password, phonenumber };
 
-     //Obtain saved users if there aren't, they go to empty array
-    const users = JSON.parse(localStorage.getItem('users')) || []
-    
+    //Obtain saved users if there aren't, they go to empty array
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
     // Add the user
-    users.push(user)
+    users.push(user);
 
     //Update Localstorae
-    localStorage.setItem('users', JSON.stringify(users))
-   
+    localStorage.setItem("users", JSON.stringify(users));
+
     console.log("Save in local Storage");
   }
 
@@ -58,4 +58,3 @@ export function Register() {
     </form>
   );
 }
-

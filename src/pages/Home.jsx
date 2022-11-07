@@ -6,9 +6,8 @@ export const Home = () => {
     <div>
       <Video />
       <span>
-
-      <h1 className="TitleStyle"> MILO BEMBÉ</h1>
-      <h2 className="SloganStyle">FEEL THE GROOVE</h2>
+        <h1 className="TitleStyle"> MILO BEMBÉ</h1>
+        <h2 className="SloganStyle">FEEL THE GROOVE</h2>
       </span>
       <h2 className="SoundCloud">
         <iframe

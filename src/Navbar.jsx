@@ -1,9 +1,7 @@
 import { useContext } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import "../src/NavbarStyle.css"
-
-import {UserContext} from './user-context'
-
+import "../src/NavbarStyle.css";
+import { UserContext } from "./user-context";
 import { Weather } from "./components/Weather";
 
 export const Navbar = () => {
@@ -12,29 +10,29 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div  className="wrap" >
-      <nav >
-          <Weather />
-          <NavLink className="btn third" to="/Home">
-            HOME
+    <div className="wrap">
+      <nav>
+        <Weather />
+        <NavLink className="btn third" to="/Home">
+          HOME
+        </NavLink>
+        <NavLink className="btn third" to="/About">
+          ABOUT
+        </NavLink>
+        <NavLink className="btn third" to="/Sounds">
+          SOUNDS
+        </NavLink>
+        {user && (
+          <NavLink className="btn third" to="/PressKit">
+            PRESSKIT
           </NavLink>
-          <NavLink className="btn third" to="/About">
-            ABOUT
-          </NavLink>
-          <NavLink className="btn third" to="/Sounds">
-            SOUNDS
-          </NavLink>
-          {user && (
-            <NavLink className="btn third" to="/PressKit">
-              PRESSKIT
-            </NavLink>
-          )}
-          <NavLink className="btn third" to="/Login">
-            LOGIN
-          </NavLink>
-          <button className="button" onClick={() => navigate("/Register")}>
-            REGISTER
-          </button>
+        )}
+        <NavLink className="btn third" to="/Login">
+          LOGIN
+        </NavLink>
+        <button className="button" onClick={() => navigate("/Register")}>
+          REGISTER
+        </button>
       </nav>
     </div>
   );

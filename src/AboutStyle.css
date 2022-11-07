@@ -14,7 +14,7 @@
 }
 
 .AboutStyle {
-  display:flex;
+  display: flex;
   color: rgb(71, 67, 67);
   font-size: 17px;
   font-weight: 100;
@@ -25,12 +25,10 @@
   padding: 3px;
   text-align: left;
   list-style-type: none;
-  line-height: 1.8;  
+  line-height: 1.8;
 }
 
-.AboutParagrahpStyle{
+.AboutParagrahpStyle {
   margin-top: 10%;
-width: 60%;
-
-
+  width: 60%;
 }

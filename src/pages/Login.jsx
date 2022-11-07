@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { UserContext } from "../user-context";
 
-
 export function Login() {
   const { setUser } = useContext(UserContext);
   const [email, setEmail] = useState("");
@@ -33,7 +32,6 @@ export function Login() {
   }
 
   return (
-
     <form onSubmit={handleSubmit}>
       <input
         type={"email"}
@@ -41,7 +39,7 @@ export function Login() {
         placeholder="Email"
         onChange={({ target }) => setEmail(target.value)}
       />
-      
+
       <input
         type={"Password"}
         name="password"

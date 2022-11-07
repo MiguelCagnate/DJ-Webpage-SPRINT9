@@ -10,13 +10,11 @@ import { Login } from "./pages/Login";
 import { Sounds } from "./pages/Sounds";
 import { Register } from "./pages/Register";
 import { PressKit } from "./pages/PressKit";
-import { SocialMedia } from "./components/SocialMedia";
-
 import { UserContext } from "./user-context";
+import { SocialMedia } from "./components/SocialMedia";
 
 export function App() {
   const [user, setUser] = useState(null);
-
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
@@ -24,13 +22,9 @@ export function App() {
   return (
     <div className="ContentStyle">
       <BrowserRouter>
-     
         <UserContext.Provider value={{ user, setUser }}>
-
-          <Navbar />       
-
+          <Navbar />
           <Routes className="TitleStyle">
-          
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Sounds" element={<Sounds />} />

@@ -101,6 +101,7 @@ export const Sounds = () => {
       <h2 className="TitleGenreStyle">TECHNO</h2>
       <div className="grid">
         <iframe
+        className="SounCloud"
           width="100%"
           height="300"
           scrolling="no"
@@ -110,6 +111,7 @@ export const Sounds = () => {
         ></iframe>
 
         <iframe
+        className="SounCloud"
           width="100%"
           height="300"
           scrolling="no"
@@ -119,6 +121,7 @@ export const Sounds = () => {
         ></iframe>
 
         <iframe
+        className="SounCloud"
           width="100%"
           height="300"
           scrolling="no"

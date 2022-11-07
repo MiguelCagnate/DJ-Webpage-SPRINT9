@@ -1,13 +1,11 @@
-
-
-.SocialMedia {  
+.SocialMedia {
   display: inline-block;
   flex-wrap: wrap;
   margin: 10px;
   align-items: center;
   text-align: center;
   padding: 3px;
-  width:20px;
+  width: 20px;
   height: 17px;
   background-color: white;
   list-style-type: none;
@@ -21,7 +19,7 @@
 .SounCloud {
   display: inline-block;
   margin: 10px;
-  margin-bottom: 45PX;
+  margin-bottom: 45px;
   font-size: 10px;
   color: #cccccc;
   line-break: anywhere;
@@ -31,10 +29,11 @@
   text-overflow: ellipsis;
   font-family: "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif";
   font-weight: 100;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.FooterStyle{
+.FooterStyle {
   margin-top: 1%;
   margin-left: 20%;
   margin-right: 25%;
