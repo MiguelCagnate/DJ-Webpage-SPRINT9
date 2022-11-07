@@ -7,8 +7,8 @@ input {
   text-align: center;
   display: block;
   color: aliceblue;
-  font-family: "Dosis", sans-serif;
-  font-size: 15px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 13px;
   padding: 0.5rem 1rem;
   background-color: transparent;
   border: 1px solid trasparent;
@@ -22,10 +22,11 @@ input {
   margin-left: 15%;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 input::placeholder {
   color: aliceblue;
-  font-family: "Dosis", sans-serif;
+  font-family: "Catamaran", sans-serif;
   letter-spacing: 3px;
   font-weight: 600;
   text-align: center;

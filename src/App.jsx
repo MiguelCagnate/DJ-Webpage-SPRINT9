@@ -26,10 +26,7 @@ export function App() {
       <BrowserRouter>
         <UserContext.Provider value={{ user, setUser }}>
 
-          <Navbar />
-
-          <h1 className="TitleStyle"> MILO BEMBÉ</h1>
-          <h2 className="SloganStyle">FEEL THE GROOVE🌴</h2>
+          <Navbar />       
 
           <Routes className="TitleStyle">
             <Route path="/Home" element={<Home />} />

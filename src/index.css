@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 @import "react-slideshow-image/dist/styles.css";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&display=swap');
+
 @media screen and (max-width: 600px) {
   div.example {
     font-size: 20px;
@@ -19,8 +21,8 @@ body{
   color: aliceblue;
   margin-top: 126px;
   margin-bottom: 2%; 
-  font-size: 4vw;
-  font-family: "Dosis", sans-serif;
+  font-size: 5vw;
+  font-family: "Catamaran", sans-serif;
   text-align: center;
   font-weight: 600;
   text-shadow: 4px 4px 8px #2e2b2b;
@@ -31,7 +33,7 @@ body{
 .SloganStyle {
   color: aliceblue;
   font-size: 2vw;
-  font-family: "Dosis", sans-serif;
+  font-family: "Catamaran", sans-serif;
   text-align: center;
   font-weight: 100; 
   text-shadow: 4px 4px 8px #3b3939;
