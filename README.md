@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<p>Interesting project based on REACT JS. & Vite. This WebPage is the product result of renew an old web page from wordpress to whole React Js world.
+<p>Interesting project based on REACT JS. & Vite. This WebPage is the result of renew an old web page from wordpress to whole React Js world.
 On this webpage you can listen a big variety of rythms while you can also check the Barcelona weather conditions on top left corner of your screen. 
 <p>When you register yourself and then you logging you can have access to the PRESS KIT section where you'll have more information of the DJ and material available
 for downloading. 
