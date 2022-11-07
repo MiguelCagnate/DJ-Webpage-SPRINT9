@@ -1,12 +1,12 @@
 
-# 🌠 DJ WEBPAGE 🎧 / SPRINT 9
+# DJ WEBPAGE 🎧 / SPRINT 9
 
 
 ## About The Project
 
-Interesting project based on REACT JS. & Vite. This WebPage is the product result of renew an old web page from wordpress to whole React Js world.
+<p>Interesting project based on REACT JS. & Vite. This WebPage is the product result of renew an old web page from wordpress to whole React Js world.
 On this webpage you can listen a big variety of rythms while you can also check the Barcelona weather conditions on top left corner of your screen. 
-If you register yourself and then you logging you can have access to the PRESS KIT section where you'll have more information of the DJ and material available 
+<p>When you register yourself and then you logging you can have access to the PRESS KIT section where you'll have more information of the DJ and material available
 for downloading. 
 If you would like to check the social media of the artist, just hit the buttons and the end of every page.
 
@@ -23,6 +23,9 @@ If you would like to check the social media of the artist, just hit the buttons 
 
 ### Built With: 
  $${\color{lightblue}REACT JS}$$  <h4 align="center">https://es.reactjs.org/ </h4>
+ <br>
+  $${\color{lightblue}VITE}$$  <h4 align="center"> https://vitejs.dev/ </h4>
+
 
 ### *Prerequisites
 #### npm
