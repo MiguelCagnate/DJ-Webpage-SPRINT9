@@ -24,11 +24,13 @@ export function App() {
   return (
     <div className="ContentStyle">
       <BrowserRouter>
+     
         <UserContext.Provider value={{ user, setUser }}>
 
           <Navbar />       
 
           <Routes className="TitleStyle">
+          
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Sounds" element={<Sounds />} />

@@ -6,6 +6,7 @@ import slide3 from "../assets/images/slide_3.jpg"
 import slide4 from "../assets/images/slide_4.png"
 import "./PressKitStyle.css";
 
+
 export const PressKit = ({ user }) => {
   if (!user) {
     return <Navigate to="/Register" replace />;
@@ -28,8 +29,7 @@ export const PressKit = ({ user }) => {
         <a href="mailto:milobembe@gmail.com">Any question? Please keep me posted</a>
       </ul>
 
-   
-
+    
     <hr></hr>
     <h2 className="PresskitTitle"> Material available to Download</h2>
     <a href={logo} download>

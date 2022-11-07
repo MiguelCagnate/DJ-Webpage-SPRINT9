@@ -3,7 +3,7 @@
 .SocialMedia {  
   display: inline-block;
   flex-wrap: wrap;
-  margin: 12px;
+  margin: 10px;
   align-items: center;
   text-align: center;
   padding: 3px;
@@ -35,7 +35,7 @@
 }
 
 .FooterStyle{
-  margin-top: 6%;
+  margin-top: 1%;
   margin-left: 20%;
   margin-right: 25%;
   padding: 1%;

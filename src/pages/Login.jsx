@@ -33,6 +33,7 @@ export function Login() {
   }
 
   return (
+
     <form onSubmit={handleSubmit}>
       <input
         type={"email"}
@@ -40,6 +41,7 @@ export function Login() {
         placeholder="Email"
         onChange={({ target }) => setEmail(target.value)}
       />
+      
       <input
         type={"Password"}
         name="password"

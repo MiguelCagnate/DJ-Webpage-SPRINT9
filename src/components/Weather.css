@@ -7,7 +7,8 @@
   margin-right: 2rem;
   border-radius: 7px;
   font-size: 15px;
-  color: rgb(43, 41, 41);
+  font-weight: 400;
+  color: rgb(22, 21, 21);
   background-color: transparent;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -19,7 +20,7 @@
 
 .weather div {
   display: grid;
-  width: 140%;
+  width: 130%;
   height: 130%;
   border-radius: 10%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 12px 22px, rgba(0, 0, 0, 0.23) 0px 8px 8px;

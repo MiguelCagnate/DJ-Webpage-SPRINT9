@@ -16,13 +16,13 @@
 .TitleStyle {
   color: aliceblue;
   margin-top: 126px;
-  margin-bottom: 2%; 
-  font-size: 5vw;
+
+  font-size: 65px;
   font-family: "Catamaran", sans-serif;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   text-shadow: 4px 4px 8px #2e2b2b;
-  letter-spacing: 7px;  
+  letter-spacing: 3px;  
 }
 
 /* ojo */
