@@ -26,7 +26,7 @@ export const Navbar = () => {
           </NavLink>
           {user && (
             <NavLink className="btn third" to="/PressKit">
-              PRESS KIT
+              PRESSKIT
             </NavLink>
           )}
           <NavLink className="btn third" to="/Login">

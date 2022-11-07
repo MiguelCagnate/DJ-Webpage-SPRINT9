@@ -24,7 +24,7 @@ export function Login() {
         savedUser.password === password && savedUser.email === email
     );
 
-    alert(newUser ? `Hi, ${newUser.name}` : "Not user found");
+    alert(newUser ? `Hi, ${newUser.name} , Welcome!` : "User not found");
 
     // Save logged user
     localStorage.setItem("user", JSON.stringify(newUser));

@@ -4,32 +4,30 @@
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
-  background-color:rgb(49, 204, 231);;
+  appearance: none; 
   border: 2px solid;
-  border-radius: 30px;
-  color: transparent;
+  border-radius: 30px;  
   cursor: pointer;
-
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 600;
-  line-height: 17px;
-  margin: 25px;  
-  width: 15%;
-  padding: 7px;
+  line-height: 11px;
+  margin: 12px;  
+  width: 25%;
+  padding: 5px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
   font-family: "Dosis", sans-serif; 
-  letter-spacing: 7px;
+  letter-spacing: 3px;
 }
 .btn:hover,
 .btn:focus {
-  color: rgb(26, 25, 25);
+  color: rgb(48, 46, 46);
   outline: 0;
+  
 }
 
 .third {
@@ -37,10 +35,11 @@
   color: rgb(104, 98, 98);
   box-shadow: 0 0 40px 40px #00ffcb inset, 0 0 0 0 #00ffcb;
   -webkit-transition: all 170ms ease-in-out;
-  transition: all 11ms ease-in-out;
+  transition: all 9ms ease-in-out;
 }
 .third:hover {
   box-shadow: 0 0 10px 0 #00ffcb inset, 0 0 10px 4px #00ffcb;
+  
 }
 
 
@@ -74,7 +73,7 @@
   button::before {
     content: "";
     border-radius: 1000px;
-    min-width: calc(119px + 12px);
+    min-width: calc(117px + 12px);
     min-height: calc(20px + 12px);
     border: 6px solid #00ffcb;
     box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);

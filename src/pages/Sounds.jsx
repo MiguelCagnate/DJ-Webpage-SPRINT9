@@ -5,7 +5,7 @@ import "../../src/SocialMedia.css";
 export const Sounds = () => {
   return (
     <div>
-      <h2 className="SloganStyle">DEEP HOUSE</h2>
+      <h2 className="TitleGenreStyle">DEEP HOUSE</h2>
 
       <div className="grid">
         <iframe
@@ -41,7 +41,7 @@ export const Sounds = () => {
 
       <hr></hr>
 
-      <h2 className="SloganStyle">AFRO-HOUSE</h2>
+      <h2 className="TitleGenreStyle">AFRO-HOUSE</h2>
 
       <div className="grid">
         <iframe
@@ -69,7 +69,7 @@ export const Sounds = () => {
 
       <hr></hr>
 
-      <h2 className="SloganStyle">HOUSE</h2>
+      <h2 className="TitleGenreStyle">HOUSE</h2>
 
       <div className="grid">
         <iframe

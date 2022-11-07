@@ -1,3 +1,28 @@
-body {
-  --bg-image: '';
+
+
+.PresskitTitle{
+  color: rgb(107, 111, 116);
+  font-size: 35px;
+  font-style: italic;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+  font-weight: 400; 
+  text-shadow: 1px 1px 5px #252424;
+
+}
+.ContactStyle{
+list-style-type: none;
+font-family:"Catamaran" ,sans-serif;
+color: rgb(104, 98, 98);
+letter-spacing: 1px;
+}
+
+.DjPictureStyle{
+width: 25%;
+height: 15%;
+margin: 5px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.BookingParagraphtyle{
+  width: 65%;
 }
