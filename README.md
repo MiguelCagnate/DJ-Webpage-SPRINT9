@@ -6,8 +6,8 @@
 
 <p>Interesting project based on REACT JS. & Vite. This WebPage is the result of renew an old web page from wordpress to whole React Js world.
 On this webpage you can listen a big variety of rythms while you can also check the Barcelona weather conditions on top left corner of your screen. 
-<p>When you register yourself and then you logging you can have access to the PRESS KIT section where you'll have more information of the DJ and material available
-for downloading. 
+<p>When you register yourself and then YOU logging you can have access to the PRESS KIT section where you'll have more information of the DJ and material available
+for downloading, otherwise the route is protected.
 If you would like to check the social media of the artist, just hit the buttons and the end of every page.
 
 ### <h3 align="center"> <i>HOME Page</i></h3>
