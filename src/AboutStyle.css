@@ -19,9 +19,9 @@
   font-size: 17px;
   font-weight: 100;
   font-family: "Dosis", sans-serif;
-  width: 80%;
-  text-align: center;
-  margin: 25px;
+  width: 65%;
+  text-align: center;   
+  margin: 8% 15px 10px;
   padding: 3px;
   text-align: left;
   list-style-type: none;
@@ -29,6 +29,6 @@
 }
 
 .AboutParagrahpStyle {
-  margin-top: 10%;
+  margin-top: 2%;
   width: 60%;
 }

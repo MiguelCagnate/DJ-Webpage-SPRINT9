@@ -13,21 +13,21 @@ export const Navbar = () => {
     <div className="wrap">
       <nav>
         <Weather />
-        <NavLink className="btn third" to="/Home">
+        <NavLink className="btn-one" to="/Home">
           HOME
         </NavLink>
-        <NavLink className="btn third" to="/About">
+        <NavLink className="btn-one" to="/About">
           ABOUT
         </NavLink>
-        <NavLink className="btn third" to="/Sounds">
+        <NavLink className="btn-one" to="/Sounds">
           SOUNDS
         </NavLink>
         {user && (
-          <NavLink className="btn third" to="/PressKit">
+          <NavLink className="btn-one" to="/PressKit">
             PRESSKIT
           </NavLink>
         )}
-        <NavLink className="btn third" to="/Login">
+        <NavLink className="btn-one" to="/Login">
           LOGIN
         </NavLink>
         <button className="button" onClick={() => navigate("/Register")}>
