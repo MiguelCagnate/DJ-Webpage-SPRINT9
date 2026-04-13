@@ -16,7 +16,7 @@
     "react-router-dom": "^6.30.3",
     "react-slideshow-image": "^4.0.5",
      "@babel/core": "^7.23.2",
-    "jsdom": "^22.1.0"
+    "jsdom": "^29.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
